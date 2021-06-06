@@ -7,7 +7,7 @@ import logo from './assets/IMG_6521.JPG';
 import { About } from './Components/About'
 import { Experience } from './Components/Experience'
 import { Facebook, GitHub, HomeOutlined, LinkedIn, MailOutline, PhoneOutlined, Twitter } from '@material-ui/icons';
-// import { Services } from './Components/Services';
+import { Services } from './Components/Services';
 // import { Footer } from './components/footer';
 import { HashLink as Link } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
@@ -81,8 +81,8 @@ function App() {
       </div>
       <About/>
       <Experience/>
-      {/* <Services/>
-      <Footer/> */}
+      <Services/>
+      {/* <Footer/> */}
     </div>
   );
 }

@@ -4,10 +4,10 @@ import { makeStyles } from '@material-ui/core/styles';
 // import '@fontsource/roboto';
 // import './App.css'; 
 import logo from './assets/IMG_6521.JPG';
-// import {About} from './components/About'
+import { About } from './Components/About'
 // import { Experience } from './components/Experience'
 import { Facebook, GitHub, HomeOutlined, LinkedIn, MailOutline, PhoneOutlined, Twitter } from '@material-ui/icons';
-// import { Services } from './components/Services';
+// import { Services } from './Components/Services';
 // import { Footer } from './components/footer';
 import { HashLink as Link } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
@@ -79,8 +79,8 @@ function App() {
           </Box>
         </div>
       </div>
-      {/* <About/>
-      <Experience/>
+      <About/>
+      {/* <Experience/>
       <Services/>
       <Footer/> */}
     </div>

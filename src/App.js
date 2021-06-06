@@ -11,7 +11,7 @@ import { Facebook, GitHub, HomeOutlined, LinkedIn, MailOutline, PhoneOutlined, T
 // import { Footer } from './components/footer';
 import { HashLink as Link } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
-// import SideDrawer from './components/Drawer';
+import SideDrawer from './Components/Drawer';
 // import { Helmet } from 'react-helmet'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       {/* <Helmet>
         <title>MugiranezaJ</title>
       </Helmet> */}
-      {/* <AppBar position='sticky' className={classes.appBar}>
+      <AppBar position='sticky' className={classes.appBar}>
             <Toolbar style={{display:'flex', justifyContent:'space-between'}}>
               
               <Typography className={classes.siteName}>
@@ -33,7 +33,7 @@ function App() {
                 </Router>
               </IconButton>
             </Toolbar>
-      </AppBar> */}
+      </AppBar>
           <div className={classes.navigation}>
             <div className={classes.siteName} >MugiranezaJ</div>
             <div className={classes.buttonContainer}>

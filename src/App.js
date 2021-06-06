@@ -69,12 +69,12 @@ function App() {
               <Typography paragraph style={{display:'flex', }}>
                 <HomeOutlined color={'primary'} style={{marginRight:'15px'}}/> KK712 st Kigarama, Kigali, Rwanda
               </Typography>
-              {/* <div>
+              <div>
                 <IconButton href={'https://www.facebook.com/MugiranezaJofficial'}><Facebook/></IconButton>
                 <IconButton href={'https://twitter.com/MugiranezaJ_'}><Twitter/></IconButton>
                 <IconButton href={'https://www.linkedin.com/in/mugiraneza-jackson-9a7a181b8/'}><LinkedIn/></IconButton>
                 <IconButton href={'https://github.com/MugiranezaJ'}><GitHub/></IconButton>
-              </div> */}
+              </div>
             </div>
           </Box>
         </div>

@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 // import './App.css'; 
 import logo from './assets/IMG_6521.JPG';
 import { About } from './Components/About'
-// import { Experience } from './components/Experience'
+import { Experience } from './Components/Experience'
 import { Facebook, GitHub, HomeOutlined, LinkedIn, MailOutline, PhoneOutlined, Twitter } from '@material-ui/icons';
 // import { Services } from './Components/Services';
 // import { Footer } from './components/footer';
@@ -80,8 +80,8 @@ function App() {
         </div>
       </div>
       <About/>
-      {/* <Experience/>
-      <Services/>
+      <Experience/>
+      {/* <Services/>
       <Footer/> */}
     </div>
   );

@@ -20,7 +20,7 @@ export function About(){
                     <div className={classes.description}>
                         <Typography variant={'h4'} style={{ marginBottom:'10px'}}>ABOUT MYSELF</Typography> 
                         <Typography>
-                         a full-stack engeer with more than 2 years of experience in real world projects including maintenance for already existing projects or fresh new projects on market. I am passionate about software engineering and project delivery time is main my priority
+                         a software engineer with more than 2 years of experience in real world projects including maintenance for already existing projects or fresh new projects on market. I am passionate about software engineering and project delivery time is main my priority
                         </Typography>
                     </div>
                     <div className={classes.skills}>
@@ -94,7 +94,7 @@ export function About(){
 
 const useStyles = makeStyles({
     container:{
-        background: 'whitesmoke',
+        background: '#2C394B',
         height:'500px',
         alignItems: 'flex-start',
         paddingTop:'66px',
@@ -113,7 +113,7 @@ const useStyles = makeStyles({
         },
     },
     aboutInner:{
-        color:'black',
+        color: "#fff",
         position:'relative',
         margin:'auto', 
         height:'500px',
@@ -144,6 +144,7 @@ const useStyles = makeStyles({
         height:'200px',
         textAlign:'left',
         padding:'10px',
+        color: "",
         '@media(max-width: 900px)':{
             width:'700px'
           },

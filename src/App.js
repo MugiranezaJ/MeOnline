@@ -3,7 +3,7 @@ import { AppBar, Box, Button, IconButton, Toolbar, Typography } from '@material-
 import { makeStyles } from '@material-ui/core/styles';
 // import '@fontsource/roboto';
 // import './App.css'; 
-import logo from './assets/IMG_6521.JPG';
+import logo from './assets/PXL_20220817_070738868.PORTRAIT_2_square.jpg';
 import { About } from './Components/About'
 import { Experience } from './Components/Experience'
 import { Facebook, GitHub, HomeOutlined, LinkedIn, MailOutline, PhoneOutlined, Twitter } from '@material-ui/icons';
@@ -56,19 +56,19 @@ function App() {
               <img src={logo} alt='Me' className={classes.MyImage}/>
             </div>
             <div className={classes.cardRight}>
-              <p>HELLO EVELYONE, I AM</p>
+              <p>HELLO EVERYONE, I AM</p>
               <Typography className={classes.name} variant={'h3'} paragraph>MUGIRANEZA JACKSON</Typography>
-              <Typography variant={'h6'} paragraph>FULL-STACK DEVELOPER</Typography>
-              <Typography paragraph style={{display:'flex', }}>Client satisfaction and project delivery time is the main priority. Feel free to join me.</Typography>
+              <Typography variant={'h6'} paragraph>SOFTWARE ENGINEER</Typography>
+              <Typography paragraph style={{display:'flex', }}>I can help you to convert your dream into codes &#129299;</Typography>
               <Typography paragraph style={{display:'flex', }}>
-                <PhoneOutlined color={'primary'} style={{marginRight:'15px'}}/> (+250) 780712835
+                <PhoneOutlined color={'primary'} style={{marginRight:'15px', color: "#3ed"}}/> (+250) 780712835
               </Typography>
-              <Typography paragraph style={{display:'flex', }}>
-                <MailOutline color={'primary'} style={{marginRight:'15px'}}/> jackswalter7@gmail.com
+              <Typography paragraph style={{display:'flex'}}>
+                <MailOutline style={{marginRight:'15px', color: "#3ed"}}/> jackswalter7@gmail.com
               </Typography>
-              <Typography paragraph style={{display:'flex', }}>
+              {/* <Typography paragraph style={{display:'flex', }}>
                 <HomeOutlined color={'primary'} style={{marginRight:'15px'}}/> KK712 st Kigarama, Kigali, Rwanda
-              </Typography>
+              </Typography> */}
               <div>
                 <IconButton href={'https://www.facebook.com/MugiranezaJofficial'}><Facebook/></IconButton>
                 <IconButton href={'https://twitter.com/MugiranezaJ_'}><Twitter/></IconButton>
@@ -88,7 +88,7 @@ function App() {
 }
 const useStyles = makeStyles({
   home: {
-    background: 'whitesmoke',
+    background: '#2C394B',
     height:'900px',
     alignItems: 'flex-start',
     '@media(max-width: 900px) and (min-width:720px)':{
@@ -100,7 +100,7 @@ const useStyles = makeStyles({
     
   },
   homeInner:{
-    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+    background: 'linear-gradient(135deg, #082032 30%, #2C394B 90%)',
     position:'relative',
     margin:'auto', 
     height:'700px',
@@ -165,10 +165,13 @@ const useStyles = makeStyles({
     height:'700px',
     maxWidth:'1152px',
     width:'80%',
-    backgroundColor:'#fff',
+    backgroundColor:'#222831',
     borderRadius: 3,
-    color: 'black',
+    color: '#fff',
     padding:'30px',
+    // border: 'solid 1px',
+    // borderColor: "rgba(155, 255, 255, 0.7)",
+    boxShadow: 'none',
     boxSizing:'border-box',
     '@media(max-width: 900px)':{
       width:'700px',
@@ -213,6 +216,7 @@ const useStyles = makeStyles({
     width:'40%',
     padding:'5px 25px',
     textAlign:'left',
+    opacity: .7,
     boxSizing:'border-box',
     '@media(max-width: 900px)':{
       width:'unset',

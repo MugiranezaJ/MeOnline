@@ -110,10 +110,10 @@ const useStyles = makeStyles(theme => ({
         background: 'whitesmoke',
         height:'auto',
         alignItems: 'flex-start',
-        paddingTop:'66px',
+        // paddingTop:'66px',
       },
     experienceInner:{
-        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+        backgroundColor: "#082032",
         position:'relative',
         margin:'auto', 
         minHeight:'700px',
